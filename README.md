@@ -1,4 +1,4 @@
-# Sample Pytest API Test with Using Swagger
+# Sample Pytest API Test Using Swagger
 
 ## System Requirements
 
@@ -49,11 +49,6 @@ To run the test
 pytest -v
 ```
 
-After running, to generate the cucumber report (cucumber_report.html)
-```bash
-npm run report
-```
-
 It is not expected that you complete every task, however, please give your best effort 
 
 You will be scored based on your ability to complete the following tasks:
@@ -62,7 +57,4 @@ You will be scored based on your ability to complete the following tasks:
 - [ ] Complete the automation tasks listed below
 
 ### Tasks
-- [ ] Modify the scenario 'Validate the login page title' from [login.feature](features/login.feature#8) which runs but fails. Determine the cause of the failure and update the scenario to pass in the test
-- [ ] Extend the scenario 'Validate login error message' from [login.feature](features/login.feature#10) which runs and passes but is missing a step. Extend the scenario to validate the error message received.
-- [ ] Modify and extend the 'Validate successful purchase text' from [purchase.feature](features/purchase.feature#6) with steps for each comment listed. Consider writing a new steps.ts file along with an appropriate page.ts
-- [ ] Extend the testing coverage with anything you believe would be beneficial
+- [ ] xxxx
