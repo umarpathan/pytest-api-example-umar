@@ -7,20 +7,21 @@ python 3.x.x
 
 ## Setup
 
-// Install Visual Studio Code (or any editor)
+* Install Visual Studio Code (or any editor)
 
 https://code.visualstudio.com/download
 
 
-// Install Python 3.x.x (latest)
+* Install Python 3.x.x (latest)
 
 https://www.python.org/downloads/
 
-// Install Docker Desktop (requires computer restart after installation). No need to sign up for an account. Ensure you've started the Docker application after restart.
+* Install Docker Desktop (requires computer restart after installation)
+* No need to sign up for an account. Ensure you've started the Docker application after restarting
 
 https://docs.docker.com/get-docker/
 
-Pull and run the image derived from a previous version of https://github.com/swagger-api/swagger-petstore
+* Pull and run the image derived from a previous version of https://github.com/swagger-api/swagger-petstore
 ```bash
 docker pull swaggerapi/petstore3:1.0.17
 docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:1.0.17
@@ -42,20 +43,18 @@ Python, Pylance, autopep8
 
 
 ## Instructions
-To run the test, use the following command. After running a 'report.html' is generated
+* To run the test, use the following command. After running a 'report.html' is generated
 ```bash
 pytest -v --html=report.html
 ```
-
-It is not expected that you complete every task, however, please give your best effort 
-
-You will be scored based on your ability to complete the following tasks:
+* It is not expected that you complete every task, however, please give your best effort 
+* You will be scored based on your ability to complete the following tasks:
 
 - [ ] Install and setup this repository on your personal computer
 - [ ] Complete the automation tasks listed below
 
 ### Tasks
 - [ ] Extend and fix the 3 tests from [test_pet.py](test_pet.py#1). There are TODO instructions for each test listed in the file
-- [ ] Create an 'Order' schema in [schemas.py](schemas.py#1) matching the SwaggerUI documentation
+- [ ] Create an 'Order' schema in [schemas.py](schemas.py#1) matching the SwaggerUI documentation. Refer to [jsonschema reference](https://json-schema.org/understanding-json-schema/reference)
 - [ ] Create 2 tests for [test_store.py](test_store.py#1). There are TODO instructions for each test listed in the file
 - [ ] Extend the testing coverage or improve the framework with anything you believe would be beneficial
