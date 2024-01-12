@@ -1,4 +1,4 @@
-# Sample Pytest API Test Using Swagger
+# Sample API Test Using Pytest and SwaggerUI
 
 ## System Requirements
 
