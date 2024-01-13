@@ -6,18 +6,11 @@ from hamcrest import assert_that, contains_string, is_
 
 '''
 TODO: Finish this test by...
-1) Create a function to test the POST request /store/order
-2) Validate the response schema matches the expected response schema
-3) Validate the response code and values
+1) Creating a function to test the PATCH request /store/order/{order_id}
+2) *Optional* Consider using @pytest.fixture to create unique test data for each run
+2) *Optional* Consider creating an 'Order' model in schemas.py and validating it in the test
+3) Validate the response codes and values
+4) Validate the response message "Order and pet status updated successfully"
 '''
-def test_post_order():
-    pass
-
-'''
-TODO: Finish this test by...
-1) Create a function to test the GET request /store/order/{orderId}
-2) Use the data from the above PUT request test
-3) Validate the response code and values
-'''
-def test_get_order():
+def test_patch_order_by_id():
     pass

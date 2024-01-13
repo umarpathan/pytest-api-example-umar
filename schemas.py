@@ -1,6 +1,6 @@
 pet = {
     "type": "object",
-    "required": ["name", "photoUrls"],
+    "required": ["name", "type"],
     "properties": {
         "id": {
             "type": "integer"
@@ -8,40 +8,13 @@ pet = {
         "name": {
             "type": "integer"
         },
-        "category": {
-            "type": "array",
-            "properties": {
-                "id": {
-                    "type": "integer"
-                },
-                "name": {
-                    "type": "string"
-                }
-            }
-        },
-        "photoUrls": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "tags": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "id": {
-                        "type": "integer"
-                    },
-                    "name": {
-                        "type": "string"
-                    }
-                }
-            }
+        "type": {
+            "type": "string",
+            "enum": ["cat", "dog", "fish"]
         },
         "status": {
             "type": "string",
-            "enum": ["available", "pending", "sold"]
-        }
+            "enum": ["available", "sold", "pending"]
+        },
     }
 }
