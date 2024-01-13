@@ -34,7 +34,7 @@ Python, Pylance, autopep8
 python app.py
 ```
 * Once it is running, you can access the SwaggerUI in a browser via http://localhost:5000
-* To run the test, use the following command. After running a 'report.html' is generated
+* To run the test, use the following command. When the tests complete, a 'report.html' is generated
 ```bash
 pytest -v --html=report.html
 ```
