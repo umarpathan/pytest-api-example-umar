@@ -158,6 +158,8 @@ class OrderUpdateResource(Resource):
             pet['status'] = 'pending'
         elif update_data['status'] == 'sold':
             pet['status'] = 'sold'
+        elif update_data['status'] == 'available':
+            pet['status'] = 'available'
         else:
             api.abort(400, f"Invalid status '{update_data['status']}'. Valid statuses are {', '.join(PET_STATUS)}")
 
